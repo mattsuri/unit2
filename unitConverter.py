@@ -20,11 +20,11 @@ if option == 1:
     
 elif option == 2:
     num = int(input("Enter Kilograms: "))
-        print(num, "kilograms is", 2.2*num, "pounds")
+    print(num, "kilograms is", 2.2*num, "pounds")
         
 elif option == 3:
     num = int(input("Enter Liters: "))
-        print(num, "Liters is", 0.264172*num, "gallons")
+    print(num, "Liters is", 0.264172*num, "gallons")
 else:
     num = int(input("Enter Celsius: "))
-        print(num, "Celsius is", (9/5)*num + 32, "Fahrenheit")
+    print(num, "Celsius is", (9/5)*num + 32, "Fahrenheit")
