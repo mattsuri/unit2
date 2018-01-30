@@ -10,7 +10,7 @@ number = randint(1,3)
 if number == 1: #if statements corresponding to color
     red = Color(0xff0000, 1) #hex # for red
     line = LineStyle(3, red)
-    rectangle = RectangleAsset(100, 100, line, red)
+    rectangle = RectangleAsset(1000, 100, line, red)
     #makes the rectangle display
     Sprite(rectangle)
     myApp = App()
