@@ -9,8 +9,19 @@ if num > 0 and num%7 == 0:
     print(num, "is positive and divisable by 7")
     
 
-elif num > 0 and num%7 != 0:
+elif num > 0:
     print(num, "is positive and not divisable by 7")
+    
+
+elif num < 0:
+    print(num, "is negative and not divisable by 7")
+    
+    
+elif num%7 == 0:
+    print(num, "is negative and divisable by 7")
+    
+    
+    
     
 
 
