@@ -10,14 +10,16 @@ x2 = int(input("x2 ="))
 
 y2 = int(input("y2 ="))
 
-slope = (y1 - y2 )/(x1 - x2)
 
-yintercept = y1 - (slope * x1) 
+
+
 
 if x1-x2 == 0:
-    print("Your slope is undefined")
+    print("The slope is undefined")
     print("The equation of the line is x = ", x1)
 else:
-    print("Your slope is ", slope)
-    print("Your equation is y = ", slope, "x +", yintercept)
+    slope = (y1 - y2 )/(x1 - x2)
+    yintercept = y1 - (slope * x1) 
+    print("The slope is ", slope)
+    print("The equation is y = ", slope, "x +", yintercept)
 
